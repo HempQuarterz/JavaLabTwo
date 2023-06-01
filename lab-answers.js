@@ -48,10 +48,48 @@
 // dart.push("Hawkins");
 // console.log(dart);
 
-let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
-const allCaps = []
+// let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+// const allCaps = []
 
-for (let item of ninjaTurtles) {
-    allCaps.push(item.toUpperCase());
-}
-console.log(allCaps)
+// for (let item of ninjaTurtles) {
+//     allCaps.push(item.toUpperCase());
+// }
+// console.log(allCaps)
+
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+console.log(favMovies[8])
+//Titanic
+
+favMovies.sort();
+//Thought question: What do this do to the array? 
+//Answer: It sorted the array in alphabetical order.
+
+favMovies.pop();
+
+favMovies.push("Guardians of the Galaxy")
+
+favMovies.reverse()
+
+favMovies.shift()
+
+favMovies.unshift()
+
+favMovies.splice(14, 1, 'Avatar');
+//Thought question: Did this permanently alter our array? 
+//Answer: Yes
+
+let halfMovies = favMovies.slice(9, 18);
+console.log(halfMovies)
+//Thought question: Did this permanently alter our array?
+//Answer: No
+
+console.log(favMovies)
+
+console.log(favMovies[13])
+
+
+
+
+
