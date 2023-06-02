@@ -119,6 +119,25 @@
 
 // console.log(oneD[8]);
 
+////////////////////////////////////////////////////////////////
+// Excited Kitten
+////////////////////////////////////////////////////////////////
+
+const addedPharses = [
+    "...human... why you taking pictures of me...?", 
+    "...the catnip made me do it...", 
+    "...why does the red dot always get away...?" 
+];
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+      const randomPhraseIndex = Math.floor(Math.random() * addedPharses.length);
+      console.log(addedPharses[randomPhraseIndex]);
+    } else {
+      console.log("Love me, pet me! HSSSSSS!");
+    }
+  }
+
 
 
 
