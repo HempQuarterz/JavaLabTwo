@@ -31,6 +31,10 @@
 //     else (console.log(i))
 // }
 
+////////////////////////////////////////////////////////////////////////
+// Wild Wild Life
+////////////////////////////////////////////////////////////////////////
+
 
 // const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 // const sharky = ["Sharky", "shark", 20, "Left Coast"]
@@ -48,6 +52,10 @@
 // dart.push("Hawkins");
 // console.log(dart);
 
+////////////////////////////////
+// Yell at the Ninja Turtles
+////////////////////////////////
+
 // let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 // const allCaps = []
 
@@ -56,38 +64,68 @@
 // }
 // console.log(allCaps)
 
+////////////////////////////////////////////////////////////////////////
+// Methods, Revisited
+////////////////////////////////////////////////////////////////////////
 
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-console.log(favMovies[8])
-//Titanic
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-favMovies.sort();
-//Thought question: What do this do to the array? 
-//Answer: It sorted the array in alphabetical order.
+// console.log(favMovies[8])
+// //Titanic
 
-favMovies.pop();
+// favMovies.sort();
+// //Thought question: What do this do to the array? 
+// //Answer: It sorted the array in alphabetical order.
 
-favMovies.push("Guardians of the Galaxy")
+// favMovies.pop();
 
-favMovies.reverse()
+// favMovies.push("Guardians of the Galaxy")
 
-favMovies.shift()
+// favMovies.reverse()
 
-favMovies.unshift()
+// favMovies.shift()
 
-favMovies.splice(14, 1, 'Avatar');
-//Thought question: Did this permanently alter our array? 
-//Answer: Yes
+// favMovies.unshift()
 
-let halfMovies = favMovies.slice(9, 18);
-console.log(halfMovies)
-//Thought question: Did this permanently alter our array?
-//Answer: No
+// favMovies.splice(14, 1, 'Avatar');
+// //Thought question: Did this permanently alter our array? 
+// //Answer: Yes
 
-console.log(favMovies)
+// let halfMovies = favMovies.slice(9, 18);
+// console.log(halfMovies)
+// //Thought question: Did this permanently alter our array?
+// //Answer: No
 
-console.log(favMovies[13])
+// console.log(favMovies)
+
+// console.log(favMovies[13])
+
+////////////////////////////////////////////////////////////////
+// Where is Waldo
+////////////////////////////////////////////////////////////////
+
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
+
+// let removedName = whereIsWaldo.splice(1,1);
+
+// let twoD = whereIsWaldo.flat()
+
+// twoD.splice(4, 1 ,"No One");
+
+// let oneD = whereIsWaldo.flat(2)
+
+// console.log(oneD[8]);
+
+
+
+
+
+
+
+
 
 
 
